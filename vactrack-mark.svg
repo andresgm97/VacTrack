@@ -1,0 +1,16 @@
+{
+  "name": "VacTrack",
+  "short_name": "VacTrack",
+  "description": "Consulta vacunal pediatrica Asturias 2025.",
+  "icons": [
+    {
+      "src": "brand/vactrack-pwa-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#0F766E",
+  "background_color": "#F8FAFC",
+  "display": "standalone"
+}

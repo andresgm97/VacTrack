@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "0.1.0",
+  "status": "PROVISIONAL",
+  "officialDataStructured": false,
+  "clinicalSafetyNotice": "Listado tecnico provisional para preparar el modulo de otros calendarios de Espana.",
+  "communities": [
+    {
+      "id": "asturias",
+      "name": "Asturias",
+      "calendarStatus": "PROVISIONAL",
+      "sourceRef": "source-pending-asturias"
+    },
+    {
+      "id": "pending-other-communities",
+      "name": "Resto de comunidades autonomas",
+      "calendarStatus": "PENDIENTE_ESTRUCTURAR",
+      "sourceRef": "source-pending-ministry-accelerated"
+    }
+  ],
+  "fallback": {
+    "message": "Pendiente de implementar con fuente oficial estructurada"
+  }
+}

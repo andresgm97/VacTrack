@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "0.2.0",
+  "globalStatus": "pending",
+  "lastVerifiedLabel": "pending_official_source",
+  "lastVerifiedAt": null,
+  "clinicalSafetyNotice": "Calendario infantil Asturias 2025 cargado como verified. Calendario acelerado y equivalencias vacunales siguen pendientes.",
+  "sources": [
+    {
+      "id": "source-asturias-2025",
+      "title": "Nuevo Calendario de vacunación infantil 2025",
+      "url": "https://vacunasaep.org/profesionales/calendario-vacunas/asturias",
+      "documentDate": "2025",
+      "lastVerifiedAt": null,
+      "status": "verified"
+    },
+    {
+      "id": "source-pending-aep-asturias",
+      "title": "Calendario de vacunas Asturias - AEP",
+      "url": "https://vacunasaep.org/profesionales/calendario-vacunas/asturias",
+      "documentDate": null,
+      "lastVerifiedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "source-pending-ministry-accelerated",
+      "title": "Calendario acelerado de vacunacion enero 2025",
+      "url": "pending_official_source",
+      "documentDate": "2025-01",
+      "lastVerifiedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "source-pending-equivalences",
+      "title": "Equivalencias vacunales oficiales",
+      "url": "pending_official_source",
+      "documentDate": null,
+      "lastVerifiedAt": null,
+      "status": "pending"
+    }
+  ]
+}

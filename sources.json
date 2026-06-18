@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "0.2.0",
+  "calendarId": "accelerated-january-2025",
+  "title": "Calendario acelerado de vacunacion enero 2025",
+  "status": "pending",
+  "officialDataStructured": false,
+  "clinicalSafetyNotice": "Estructura por antigenos preparada para calendario acelerado enero 2025. No calcular pautas complejas hasta cargar reglas oficiales estructuradas.",
+  "sourceIds": [
+    "source-pending-ministry-accelerated"
+  ],
+  "antigenCatalog": [
+    {
+      "id": "diphtheria",
+      "name": "Difteria",
+      "abbreviations": ["D"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "tetanus",
+      "name": "Tetanos",
+      "abbreviations": ["T"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "pertussis",
+      "name": "Tosferina",
+      "abbreviations": ["Pa", "pa"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "polio",
+      "name": "Poliomielitis",
+      "abbreviations": ["VPI", "IPV", "OPV", "PI"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "hib",
+      "name": "Haemophilus influenzae tipo b",
+      "abbreviations": ["Hib"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "hepatitis_b",
+      "name": "Hepatitis B",
+      "abbreviations": ["HB", "HepB"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "tetanus_diphtheria",
+      "name": "Tetanos y difteria",
+      "abbreviations": ["Td", "Tdpa"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "measles_mumps_rubella",
+      "name": "Sarampion, parotiditis y rubeola",
+      "abbreviations": ["SRP", "MMR"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "varicella",
+      "name": "Varicela",
+      "abbreviations": ["Var", "Varicela"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "pneumococcus",
+      "name": "Neumococo",
+      "abbreviations": ["VNC", "PCV"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "meningococcus",
+      "name": "Meningococo",
+      "abbreviations": ["MenB", "MenACWY"],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "hpv",
+      "name": "Virus del papiloma humano",
+      "abbreviations": ["VPH", "HPV"],
+      "sourceId": "source-pending-ministry-accelerated"
+    }
+  ],
+  "vaccineProducts": [
+    {
+      "id": "hexavalent",
+      "name": "DTPa-PI-Hib-HB",
+      "abbreviations": ["Hexavalente", "DTPa-PI-Hib-HB"],
+      "antigenIds": [
+        "diphtheria",
+        "tetanus",
+        "pertussis",
+        "polio",
+        "hib",
+        "hepatitis_b"
+      ],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "srp",
+      "name": "Triple virica",
+      "abbreviations": ["SRP", "MMR"],
+      "antigenIds": [
+        "measles_mumps_rubella"
+      ],
+      "sourceId": "source-pending-ministry-accelerated"
+    },
+    {
+      "id": "tdpa_pi",
+      "name": "Tdpa-PI",
+      "abbreviations": ["Tdpa-PI"],
+      "antigenIds": [
+        "tetanus_diphtheria",
+        "pertussis",
+        "polio"
+      ],
+      "sourceId": "source-pending-ministry-accelerated"
+    }
+  ],
+  "antigenSeries": [
+    {
+      "id": "hepatitis-b-catchup-series",
+      "antigenId": "hepatitis_b",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "polio-catchup-series",
+      "antigenId": "polio",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "tetanus-diphtheria-catchup-series",
+      "antigenId": "tetanus_diphtheria",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "measles-mumps-rubella-catchup-series",
+      "antigenId": "measles_mumps_rubella",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "varicella-catchup-series",
+      "antigenId": "varicella",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "hib-catchup-series",
+      "antigenId": "hib",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "pneumococcus-catchup-series",
+      "antigenId": "pneumococcus",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "meningococcus-catchup-series",
+      "antigenId": "meningococcus",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    },
+    {
+      "id": "hpv-catchup-series",
+      "antigenId": "hpv",
+      "targetGroup": "pediatric",
+      "status": "pending",
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "totalRequiredDoses": null,
+      "doseRules": [],
+      "catchUpRules": []
+    }
+  ],
+  "fallback": {
+    "message": "Pendiente de implementar con fuente oficial estructurada"
+  }
+}

@@ -1,0 +1,62 @@
+export interface AgeResult {
+  ageMonths: number | null;
+  error: string | null;
+}
+
+export function parseISODate(value: string): Date | null {
+  if (!value) {
+    return null;
+  }
+
+  const [year, month, day] = value.split("-").map(Number);
+  if (!year || !month || !day) {
+    return null;
+  }
+
+  const date = new Date(year, month - 1, day);
+  if (
+    date.getFullYear() !== year ||
+    date.getMonth() !== month - 1 ||
+    date.getDate() !== day
+  ) {
+    return null;
+  }
+
+  return date;
+}
+
+export function calculateAgeInMonths(
+  birthDateValue: string,
+  consultationDateValue: string
+): AgeResult {
+  const birthDate = parseISODate(birthDateValue);
+  const consultationDate = parseISODate(consultationDateValue);
+
+  if (!birthDate || !consultationDate) {
+    return {
+      ageMonths: null,
+      error: "Introduce fecha de nacimiento y fecha de consulta validas."
+    };
+  }
+
+  if (birthDate > consultationDate) {
+    return {
+      ageMonths: null,
+      error: "La fecha de nacimiento no puede ser posterior a la consulta."
+    };
+  }
+
+  let ageMonths =
+    (consultationDate.getFullYear() - birthDate.getFullYear()) * 12 +
+    consultationDate.getMonth() -
+    birthDate.getMonth();
+
+  if (consultationDate.getDate() < birthDate.getDate()) {
+    ageMonths -= 1;
+  }
+
+  return {
+    ageMonths: Math.max(ageMonths, 0),
+    error: null
+  };
+}

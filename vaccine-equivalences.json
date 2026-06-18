@@ -1,0 +1,386 @@
+{
+  "schemaVersion": "0.4.0",
+  "calendarId": "asturias-2025",
+  "title": "Nuevo Calendario de vacunación infantil 2025",
+  "jurisdiction": {
+    "country": "España",
+    "autonomousCommunity": "Asturias"
+  },
+  "targetYear": 2025,
+  "status": "verified",
+  "officialDataStructured": true,
+  "clinicalSafetyNotice": "Calendario infantil Asturias 2025 cargado con los datos proporcionados. No incluye pauta acelerada ni calculo de rescate.",
+  "sourceIds": [
+    "source-asturias-2025"
+  ],
+  "vaccineSchema": {
+    "id": "pending_official_source",
+    "name": "pending_official_source",
+    "abbreviation": "pending_official_source",
+    "recommendedAgeMonths": null,
+    "minimumAgeMonths": null,
+    "maximumAgeMonths": null,
+    "doseNumber": null,
+    "route": null,
+    "notes": [],
+    "eligibility": null,
+    "sourceId": "pending_official_source"
+  },
+  "vaccines": [
+    {
+      "id": "tdpa-prenatal",
+      "name": "Tdpa",
+      "abbreviation": "Tdpa",
+      "recommendedAgeMonths": null,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Prenatal"
+      ],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "dtpa-pi-hib-hb-2-months",
+      "name": "DTPa-PI-Hib-HB",
+      "abbreviation": "DTPa-PI-Hib-HB",
+      "recommendedAgeMonths": 2,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "vnc-2-months",
+      "name": "VNC",
+      "abbreviation": "VNC",
+      "recommendedAgeMonths": 2,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menb-2-months",
+      "name": "MenB",
+      "abbreviation": "MenB",
+      "recommendedAgeMonths": 2,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "rotavirus-2-months",
+      "name": "Rotavirus",
+      "abbreviation": "Rotavirus",
+      "recommendedAgeMonths": 2,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Rotavirus: niños y niñas nacidos a partir del 1 de enero de 2025."
+      ],
+      "eligibility": {
+        "bornOnOrAfter": "2025-01-01"
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "dtpa-pi-hib-hb-4-months",
+      "name": "DTPa-PI-Hib-HB",
+      "abbreviation": "DTPa-PI-Hib-HB",
+      "recommendedAgeMonths": 4,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "vnc-4-months",
+      "name": "VNC",
+      "abbreviation": "VNC",
+      "recommendedAgeMonths": 4,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menb-4-months",
+      "name": "MenB",
+      "abbreviation": "MenB",
+      "recommendedAgeMonths": 4,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "rotavirus-4-months",
+      "name": "Rotavirus",
+      "abbreviation": "Rotavirus",
+      "recommendedAgeMonths": 4,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Rotavirus: niños y niñas nacidos a partir del 1 de enero de 2025."
+      ],
+      "eligibility": {
+        "bornOnOrAfter": "2025-01-01"
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "dtpa-pi-hib-hb-6-months",
+      "name": "DTPa-PI-Hib-HB",
+      "abbreviation": "DTPa-PI-Hib-HB",
+      "recommendedAgeMonths": 6,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "vnc-6-months",
+      "name": "VNC",
+      "abbreviation": "VNC",
+      "recommendedAgeMonths": 6,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "rotavirus-6-months",
+      "name": "Rotavirus",
+      "abbreviation": "Rotavirus",
+      "recommendedAgeMonths": 6,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Rotavirus: niños y niñas nacidos a partir del 1 de enero de 2025."
+      ],
+      "eligibility": {
+        "bornOnOrAfter": "2025-01-01"
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "dtpa-pi-hib-hb-11-months",
+      "name": "DTPa-PI-Hib-HB",
+      "abbreviation": "DTPa-PI-Hib-HB",
+      "recommendedAgeMonths": 11,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "vnc-11-months",
+      "name": "VNC",
+      "abbreviation": "VNC",
+      "recommendedAgeMonths": 11,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menb-11-months",
+      "name": "MenB",
+      "abbreviation": "MenB",
+      "recommendedAgeMonths": 11,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "srp-dose-1",
+      "name": "Triple Vírica",
+      "abbreviation": "SRP",
+      "recommendedAgeMonths": 12,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": 1,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menacwy-12-months",
+      "name": "MenACWY",
+      "abbreviation": "MenACWY",
+      "recommendedAgeMonths": 12,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "varicela-15-months",
+      "name": "Varicela",
+      "abbreviation": "Varicela",
+      "recommendedAgeMonths": 15,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Varicela: niños y niñas no vacunadas previamente y que no hayan pasado la enfermedad."
+      ],
+      "eligibility": {
+        "requiresNoPriorVaccinationOrDisease": true
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "srp-36-months",
+      "name": "Triple Vírica",
+      "abbreviation": "SRP",
+      "recommendedAgeMonths": 36,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "varicela-36-months",
+      "name": "Varicela",
+      "abbreviation": "Varicela",
+      "recommendedAgeMonths": 36,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Varicela: niños y niñas no vacunadas previamente y que no hayan pasado la enfermedad."
+      ],
+      "eligibility": {
+        "requiresNoPriorVaccinationOrDisease": true
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "tdpa-pi-72-months",
+      "name": "Tdpa-PI",
+      "abbreviation": "Tdpa-PI",
+      "recommendedAgeMonths": 72,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "varicela-72-months",
+      "name": "Varicela",
+      "abbreviation": "Varicela",
+      "recommendedAgeMonths": 72,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Varicela si no vacunado previamente o no enfermedad.",
+        "Varicela: niños y niñas no vacunadas previamente y que no hayan pasado la enfermedad."
+      ],
+      "eligibility": {
+        "requiresNoPriorVaccinationOrDisease": true
+      },
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menacwy-120-months",
+      "name": "MenACWY",
+      "abbreviation": "MenACWY",
+      "recommendedAgeMonths": 120,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "vph-dose-1",
+      "name": "VPH",
+      "abbreviation": "VPH",
+      "recommendedAgeMonths": 156,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": 1,
+      "route": null,
+      "notes": [
+        "VPH: 1 dosis."
+      ],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "menacwy-156-months",
+      "name": "MenACWY",
+      "abbreviation": "MenACWY",
+      "recommendedAgeMonths": 156,
+      "minimumAgeMonths": null,
+      "maximumAgeMonths": null,
+      "doseNumber": null,
+      "route": null,
+      "notes": [],
+      "sourceId": "source-asturias-2025"
+    },
+    {
+      "id": "gripe-6-to-59-months",
+      "name": "Gripe",
+      "abbreviation": "Gripe",
+      "recommendedAgeMonths": null,
+      "minimumAgeMonths": 6,
+      "maximumAgeMonths": 59,
+      "doseNumber": null,
+      "route": null,
+      "notes": [
+        "Gripe: de 6 meses a 59 meses durante campaña anual."
+      ],
+      "eligibility": {
+        "duringAnnualCampaign": true
+      },
+      "sourceId": "source-asturias-2025"
+    }
+  ],
+  "fallback": {
+    "message": "Pendiente de implementar con fuente oficial estructurada"
+  }
+}

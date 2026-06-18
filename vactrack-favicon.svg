@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "0.2.0",
+  "status": "pending",
+  "officialDataStructured": false,
+  "clinicalSafetyNotice": "Estructura preparada para equivalencias vacunales oficiales. No hay equivalencias verificadas cargadas.",
+  "sourceIds": [
+    "source-pending-equivalences"
+  ],
+  "equivalenceSchema": {
+    "id": "pending_official_source",
+    "foreignName": "pending_official_source",
+    "foreignAbbreviation": "pending_official_source",
+    "equivalentVaccineId": "pending_official_source",
+    "confidence": null,
+    "country": null,
+    "notes": [],
+    "sourceId": "pending_official_source"
+  },
+  "equivalences": [],
+  "fallback": {
+    "message": "Pendiente de implementar con fuente oficial estructurada"
+  }
+}
